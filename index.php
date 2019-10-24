@@ -8,7 +8,7 @@
 <h1>Welcome to my guessing game</h1>
 <p>
 <?php
-    $corrnum=78;//$_REQUEST["Correct_number"];
+    $corrnum=42;//$_REQUEST["Correct_number"];
   if ( ! isset($_GET['guess']) ) { 
     echo("Missing guess parameter");
   } else if ( strlen($_GET['guess']) < 1 ) {
